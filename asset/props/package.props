@@ -1,0 +1,12 @@
+<Project>
+	<PropertyGroup Label="Package">
+		<Product>Cosmos.SecurityKits</Product>
+		<Authors>AlexLEWIS;Cosmos</Authors>
+		<RepositoryUrl>https://github.com/cosmos-loops/cosmos-security-kit</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageProjectUrl>https://github.com/cosmos-loops/cosmos-security-kit</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageTags>Cosmos;Cosmosloops;Security;Encryption;Framework</PackageTags>
+	</PropertyGroup>
+</Project>

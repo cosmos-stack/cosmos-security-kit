@@ -1,0 +1,8 @@
+<Project>
+    
+    <PropertyGroup>
+        <Validation-PkgVersion>0.1.4.6</Validation-PkgVersion>
+        <Security-PkgVersion>0.1.5.2</Security-PkgVersion>
+    </PropertyGroup>
+    
+</Project>
