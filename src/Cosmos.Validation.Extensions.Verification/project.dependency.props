@@ -1,0 +1,8 @@
+<Project>
+
+    <ItemGroup>
+        <PackageReference Include="Cosmos.Validation" Version="$(Validation-PkgVersion)" />
+        <PackageReference Include="Cosmos.Security.Verification" Version="$(Security-PkgVersion)" />
+    </ItemGroup>
+
+</Project>

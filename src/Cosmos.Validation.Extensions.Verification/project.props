@@ -1,0 +1,9 @@
+<Project>
+
+    <PropertyGroup>
+        <AssemblyName>Cosmos.Validation.Extensions.Verification</AssemblyName>
+        <PackageId>Cosmos.Validation.Extensions.Verification</PackageId>
+        <Description>Verification extensions for Cosmos Validation.</Description>
+    </PropertyGroup>
+
+</Project>
