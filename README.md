@@ -1,1 +1,1 @@
-# cosmos-security
+# Cosmos Security Kits
