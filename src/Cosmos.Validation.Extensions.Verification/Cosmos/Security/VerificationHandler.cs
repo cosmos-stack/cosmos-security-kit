@@ -7,7 +7,7 @@ namespace Cosmos.Security
 {
     internal static class VerificationCoreHandler
     {
-        public static Func<Func<IHashFunction>, Func<object, Func<Encoding, IHashValue>>> Hash()
+        public static Func<Func<IHashAlgorithm>, Func<object, Func<Encoding, IHashValue>>> Hash()
             => functionFunc => o => encoding =>
             {
                 var function = functionFunc();
@@ -27,8 +27,8 @@ namespace Cosmos.Security
                     {
                         VerifyResult = false,
                         ErrorMessage = string.IsNullOrWhiteSpace(hexVal)
-                            ? $"The {hashName} verification result should be {hexVal}, but the actual result is {hashVal.AsHexString()}."
-                            : $"The {hashName} verification result is {hashVal.AsHexString()}, which is not the expected value."
+                            ? $"The {hashName} verification result should be {hexVal}, but the actual result is {hashVal.GetHexString()}."
+                            : $"The {hashName} verification result is {hashVal.GetHexString()}, which is not the expected value."
                     };
             };
     }

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Text;
 using Cosmos.Security.Verification;
-using Cosmos.Security.Verification.CRC;
 using Cosmos.Text;
 using EnumsNET;
 
